@@ -119,7 +119,10 @@ export default function RoutingTable() {
       <table>
         <thead>
           <tr>
-            <th onClick={() => handleSort("address")}>
+            <th
+              className={sortConfig.key === "address" ? "active" : ""}
+              onClick={() => handleSort("address")}
+            >
               Адрес назначения{" "}
               <span
                 className={`arrow ${
@@ -127,7 +130,10 @@ export default function RoutingTable() {
                 }`}
               ></span>
             </th>
-            <th onClick={() => handleSort("gateway")}>
+            <th
+              className={sortConfig.key === "gateway" ? "active" : ""}
+              onClick={() => handleSort("gateway")}
+            >
               Шлюз{" "}
               <span
                 className={`arrow ${
@@ -135,7 +141,10 @@ export default function RoutingTable() {
                 }`}
               ></span>
             </th>
-            <th onClick={() => handleSort("interface")}>
+            <th
+              className={sortConfig.key === "interface" ? "active" : ""}
+              onClick={() => handleSort("interface")}
+            >
               Интерфейс{" "}
               <span
                 className={`arrow ${

@@ -57,6 +57,10 @@ th {
   background: #a3bdc8;
   text-transform: uppercase;
 }
+th.active {
+  font-weight: bold;
+  background-color: #b6d4e5;
+}
 .arrow {
   display: inline-block;
   margin-left: 6px;
