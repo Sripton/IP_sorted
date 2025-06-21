@@ -102,7 +102,7 @@ export default function RoutingTable() {
       return asc ? diff : -diff;
     } else {
       // сортировка по строке (interface)
-      return asc ? a[key].localeCompare(b[key]) : b[key].localeCompare[a[key]];
+      return asc ? a[key].localeCompare(b[key]) : b[key].localeCompare([key]);
     }
   });
 

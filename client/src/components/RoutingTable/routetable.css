@@ -65,13 +65,12 @@ th {
   border-top: 8px solid #fff;
   transition: transform 0.3s ease 0s;
 }
+
 .arrow.asc {
-  transform: rotate(0);
-  opacity: 1;
+  transform: rotate(180deg);
 }
 .arrow.desc {
-  transform: rotate(180deg);
-  opacity: 1;
+  transform: rotate(0deg);
 }
 
 td {
